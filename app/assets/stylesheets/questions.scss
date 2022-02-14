@@ -1,0 +1,20 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+ .user {
+   background-color: white;
+   border-left: 3px solid darkgray;
+   width: 300px;
+ }
+
+ .coach {
+  background-color: #FFFFE1;
+  border-left: 3px solid darkgray;
+  width: 300px;
+}

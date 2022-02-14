@@ -1,0 +1,12 @@
+<h1>Answer page</h1>
+<p class="user"><%= @answer %> <br> -You </p>
+
+<% if @answer == "I am going to work" %>
+ <p class="coach">Great! <br> -Coach</p>
+<% elsif @answer[-1] == '?' %>
+  <p class="coach">Silly question, get dressed and go to work! <br> -Coach</p>
+<% else %>
+  <p class="coach">I don't care, get dressed and go to work! <br> -Coach</p>
+<% end %>
+
+<%= link_to "Another question?", ask_path %>
